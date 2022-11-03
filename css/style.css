@@ -268,8 +268,20 @@ img {
 }
 
 #aa-menu-area .main-navbar .navbar-header .aa-logo-img img {
+    max-width: 200px;
+    position: absolute;
+    top: -10px;
+    height: auto;
+    left: 0px;
+}
+
+#aa-menu-area .main-navbar div.nav_menu {
+    position: relative;
+    min-height: 30px;
+    float: left;
     width: 100%;
-    height: 100%;
+    padding-top: 5px;
+    /* background-color: aqua; */
 }
 
 #aa-menu-area .main-navbar .navbar-nav li a {
@@ -306,12 +318,13 @@ img {
 
 #aa-menu-area .navbar-fixed-top {
     background-color: #FFF;
-    padding: 15px 0;
+    padding: 15px 0 5px 0;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    box-shadow: 5px 10px 50px 1px #d1cfcf;
 }
 
 #aa-menu-area .navbar-fixed-top .navbar-header .aa-logo {
@@ -3575,9 +3588,9 @@ img {
         text-align: center;
         width: 100%;
     }
-    .slick-slide img {
+    /* .slick-slide img {
         display: inline-block;
-    }
+    } */
     #aa-latest-blog .aa-latest-blog-area .aa-latest-blog-content {
         margin-top: 0;
     }
@@ -3738,5 +3751,10 @@ img {
     .aa-signin-area .row ::before {
         width: 70%;
         margin: 0 auto;
+    }
+    #aa-menu-area .main-navbar .nav_menu {
+        min-height: 30px;
+        float: left;
+        position: relative;
     }
 }
