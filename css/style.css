@@ -904,8 +904,10 @@ img {
     margin-top: 0px;
 }
 
-.aa-properties-item .aa-properties-item-content .aa-properties-about p {
-    font-size: 14px;
+.aa-properties-item .aa-properties-item-content .aa-properties-about .b__main--rows {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .aa-properties-item .aa-properties-item-content .aa-properties-detial {
@@ -1420,10 +1422,21 @@ img {
     float: left;
     position: relative;
     width: 100%;
+    text-align: center;
+    font-style: italic;
 }
 
 .aa-blog-single .aa-blog-img img {
     max-width: 100%;
+}
+
+.aa-blog-single .aa-blog-imgs img {
+    width: 100%;
+    height: 220px;
+}
+
+.aa-blog-single .aa-blog-img span {
+    font-size: 14px;
 }
 
 .aa-blog-single .aa-blog-img .aa-date-tag {
@@ -1441,6 +1454,11 @@ img {
     padding: 10px;
     width: 100%;
     padding-bottom: 20px;
+}
+
+
+.aa-blog-single .aa-blog-single-content h2 {
+    margin-bottom: 10px;
 }
 
 .aa-blog-single .aa-blog-single-content h3 {
@@ -1507,7 +1525,7 @@ img {
 ====================*/
 
 #aa-property-header {
-    background-image: url("../img/property-header-bg.jpg");
+    background-image: url("../img/slider/overview\ \(1\).jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -2056,6 +2074,7 @@ img {
     display: block;
     margin-bottom: 0;
     padding: 8px 0;
+    cursor: pointer;
 }
 
 #aa-blog .aa-blog-area .aa-blog-sidebar .aa-blog-sidebar-single .aa-blog-catg li span {
