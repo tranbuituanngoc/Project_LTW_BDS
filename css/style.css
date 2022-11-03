@@ -561,7 +561,7 @@ img {
     font-family: "Poppins", sans-serif;
     font-size: 25px;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     text-transform: uppercase;
     color: #555;
     line-height: 25px;
@@ -569,14 +569,13 @@ img {
 
 #aa-slider .aa-slider-area .aa-top-slider .aa-top-slider-single .aa-top-slider-content .aa-top-slider-title {
     color: #555;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     padding-bottom: 5px;
-    text-transform: uppercase;
 }
 
 #aa-slider .aa-slider-area .aa-top-slider .aa-top-slider-single .aa-top-slider-content .aa-top-slider-location {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #aa-slider .aa-slider-area .aa-top-slider .aa-top-slider-single .aa-top-slider-content .aa-top-slider-location i {
@@ -2692,7 +2691,7 @@ img {
 #aa-gallery .aa-gallery-area .aa-gallery-content .aa-gallery-body .aa-single-gallery {
     display: inline;
     float: left;
-    width: 33.33%;
+    width: 32.3%;
 }
 
 #aa-gallery .aa-gallery-area .aa-gallery-content .aa-gallery-body .aa-single-gallery .aa-single-gallery-item {
@@ -2772,6 +2771,7 @@ img {
 
 #aa-gallery .aa-gallery-area #mixit-container .mix {
     display: none;
+    margin: 5px;
 }
 
 
@@ -3389,8 +3389,8 @@ img {
         font-size: 14px;
     }
     #aa-slider .aa-slider-area .aa-top-slider .slick-arrow {
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
     }
     #aa-slider .aa-slider-area .aa-top-slider .slick-prev::before,
     #aa-slider .aa-slider-area .aa-top-slider .slick-next::before {
