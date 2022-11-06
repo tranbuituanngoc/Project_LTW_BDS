@@ -886,6 +886,7 @@ img {
     padding: 10px;
     width: 100%;
     text-align: left;
+    margin: 7px 0 8px 0;
 }
 
 .aa-properties-item .aa-properties-item-content .aa-properties-info span {
@@ -898,6 +899,7 @@ img {
     float: left;
     width: 100%;
     padding: 10px;
+    margin: 5px 0 5px 0;
 }
 
 .aa-properties-item .aa-properties-item-content .aa-properties-about h3 {
@@ -916,6 +918,7 @@ img {
     float: left;
     padding: 10px;
     width: 100%;
+    margin: 5px 0 5px 0;
 }
 
 .aa-properties-item .aa-properties-item-content .aa-properties-detial .aa-price {
@@ -1024,7 +1027,7 @@ img {
 ====================*/
 
 #aa-promo-banner {
-    background-image: url("../img/promo-banner.jpg");
+    background-image: url("../img/banner-filter.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
