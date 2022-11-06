@@ -69,7 +69,9 @@ h2 {
 
 #aa-slider .aa-slider-area .aa-top-slider .slick-prev:hover,
 #aa-slider .aa-slider-area .aa-top-slider .slick-next:hover {
-    background-color: #59abe3;
+    /* background-color: #59ace3; */
+    background-color: rgba(89, 172, 227, 0.6);
+    border-radius: 50%;
 }
 
 #aa-slider .aa-slider-area .aa-top-slider .aa-top-slider-price {

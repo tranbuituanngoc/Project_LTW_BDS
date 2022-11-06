@@ -529,7 +529,8 @@ img {
 #aa-slider .aa-slider-area .aa-top-slider .slick-prev,
 #aa-slider .aa-slider-area .aa-top-slider .slick-next {
     background-color: transparent;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff;
+    border-radius: 10px; */
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
