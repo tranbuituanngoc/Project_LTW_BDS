@@ -52,6 +52,7 @@ h2 {
 
 #aa-menu-area .main-navbar .navbar-nav li a:hover {
     background-color: rgb(240, 240, 240);
+    border-radius: 10px;
 }
 
 #aa-menu-area .main-navbar .navbar-nav .active a {
