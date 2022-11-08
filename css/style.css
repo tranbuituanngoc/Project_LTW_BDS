@@ -121,6 +121,7 @@ img {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    border-radius: 4px;
 }
 
 .aa-secondary-btn:hover,
@@ -360,6 +361,7 @@ img {
     transition: all 0.5s ease 0s;
     width: 50px;
     z-index: 999;
+    border-radius: 50%;
 }
 
 .scrollToTop:hover,
@@ -865,6 +867,7 @@ img {
 
 .aa-properties-item:hover {
     box-shadow: 1px 2px 5px 3px #ccc;
+    border-radius: 10px;
 }
 
 .aa-properties-item .aa-properties-item-img {
@@ -874,6 +877,7 @@ img {
 .aa-properties-item .aa-properties-item-img img {
     width: 100%;
     height: 220px;
+    border-radius: 10px 10px 0 0;
 }
 
 .aa-properties-item .aa-tag {
@@ -882,6 +886,7 @@ img {
     position: absolute;
     left: 15px;
     top: -15px;
+    border-radius: 3px;
 }
 
 .aa-properties-item .for-rent {
@@ -899,6 +904,7 @@ img {
     display: inline;
     float: left;
     width: 100%;
+    border-radius: 0 0 10px 10px;
 }
 
 .aa-properties-item .aa-properties-item-content .aa-properties-info {
@@ -1050,7 +1056,6 @@ img {
 
 #aa-promo-banner {
     background-image: url("/img/pexels-sevenstorm-juhaszimrus-443383.jpg");
-
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -1441,6 +1446,9 @@ img {
     display: inline;
     float: left;
     width: 100%;
+    border-radius: 10px;
+    height: 470px;
+    border: 1px solid #ddd;
 }
 
 .aa-blog-single .aa-blog-img {
@@ -1459,6 +1467,7 @@ img {
 .aa-blog-single .aa-blog-imgs img {
     width: 100%;
     height: 220px;
+    border-radius: 10px 10px 0 0;
 }
 
 .aa-blog-single .aa-blog-img span {
@@ -1482,6 +1491,14 @@ img {
     padding-bottom: 20px;
 }
 
+.aa-blog-single .aa-blog-single-content h4 {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.aa-blog-single .aa-blog-single-content p {
+    font-size: 10pt;
+}
 
 .aa-blog-single .aa-blog-single-content h2 {
     margin-bottom: 10px;
@@ -1563,7 +1580,7 @@ img {
 }
 
 #aa-property-header::before {
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
     bottom: 0;
     content: "";
     left: 0;
@@ -1619,6 +1636,7 @@ img {
     float: left;
     padding: 10px 15px;
     width: 100%;
+    border-radius: 10px;
 }
 
 #aa-properties .aa-properties-content .aa-properties-content-head .aa-properties-content-head-left {
@@ -1655,6 +1673,7 @@ img {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    border-radius: 10px;
 }
 
 #aa-properties .aa-properties-content .aa-properties-content-head .aa-properties-content-head-right #aa-grid-properties {
@@ -1687,6 +1706,10 @@ img {
     margin-left: 0;
 }
 
+#aa-properties .aa-list-view .aa-properties-item .aa-properties-item-img img {
+    border-radius: 10px 0 0 10px;
+}
+
 #aa-properties .aa-properties-content .aa-properties-content-body .aa-list-view li {
     width: 100%;
     margin: 0;
@@ -1701,6 +1724,8 @@ img {
 #aa-properties .aa-properties-content .aa-properties-content-body .aa-list-view li .aa-properties-item .aa-properties-item-content {
     width: 50%;
     border-top: 1px solid #ddd;
+    border-radius: 0 10px 10px 0;
+    z-index: 9999;
 }
 
 #aa-properties .aa-properties-content .aa-properties-content-bottom {
@@ -1746,6 +1771,7 @@ img {
     float: left;
     padding: 10px 20px;
     width: 100%;
+    border-radius: 10px;
 }
 
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar {
@@ -1757,6 +1783,7 @@ img {
 
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar h3 {
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar .aa-single-advance-search {
@@ -2029,6 +2056,7 @@ img {
     float: left;
     padding: 50px 0 100px;
     width: 100%;
+    min-height: 30px;
 }
 
 #aa-blog .aa-blog-area {
@@ -2546,6 +2574,7 @@ img {
     height: 450px;
     padding: 50px 30px;
     width: 40%;
+    border-radius: 0 10px 10px 0;
 }
 
 #aa-contact .aa-contact-area .aa-contact-top .aa-contact-top-right h2 {
@@ -2596,6 +2625,7 @@ img {
     float: left;
     margin-top: 20px;
     width: 100%;
+    font-size: 14pt;
 }
 
 #aa-contact .aa-contact-area .aa-contact-bottom .aa-contact-form .contactform {
@@ -2628,6 +2658,7 @@ img {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    border-radius: 0;
 }
 
 #aa-contact .aa-contact-area .aa-contact-bottom .aa-contact-form textarea {
@@ -2643,12 +2674,13 @@ img {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    border-radius: 0;
 }
 
 #aa-contact .aa-contact-area .aa-contact-bottom .aa-contact-form .form-submit input {
-    background-color: transparent;
-    color: #555;
-    border: 2px solid #ccc;
+    color: white;
+    background-color: #59abe3;
+    border: none;
     font-size: 16px;
     font-weight: 400;
     margin-top: 10px;
@@ -2658,6 +2690,17 @@ img {
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+}
+
+.squaredcheck {
+    display: flex;
+    margin-right: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.squaredcheck span {
+    margin-left: 10px;
 }
 
 
